@@ -37,5 +37,6 @@
 
   if(p.get("house_review_tag_ids")==="1788")u+="&st=292";
 
-  open(u,"_blank");
+  console.log("🔍 SUUMOへ遷移するURL:", u);
+  open(u, '_blank');
 })();
